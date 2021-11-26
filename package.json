@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/MRHRTZ/Anon-Chat.git"
+        "url": "git+https://github.com/Rtxc7/anon-chats.git"
     },
     "keywords": [
         "Anonymous chat",
@@ -21,11 +21,11 @@
     "author": "MRHRTZ",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Rtxc7/anon-chat/issues"
+        "url": "https://github.com/Rtxc7/anon-chats/issues"
     },
-    "homepage": "https://github.com/Rtxc7/anon-chat#readme",
+    "homepage": "https://github.com/Rtxc7/anon-chats",
     "dependencies": {
-        "@adiwajshing/baileys": "git+https://github.com/adiwajshing/baileys.git",
+        "@adiwajshing/baileys": "^3.5.3",
         "axios": "^0.21.1",
         "chalk": "^4.1.0",
         "cheerio": "^1.0.0-rc.6",
