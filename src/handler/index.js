@@ -302,7 +302,7 @@ module.exports = handle = async (
         }
 
         if (cmd == prf + 'author') {
-            const vcard1 = 'BEGIN:VCAR' + 'D\x0a' + (l(-0x299, -0x268) + '0\x0a') + l(-0x2a0, -0x2ab) + l(-0x259, -'0x231') + '\x0a' + (l(-0x27f, -0x247) + l(-'0x285', -'0x254')) + ('TEL;type=C' + 'ELL;type=V' + 'OICE;waid=' + '6285559038' + l(-'0x291', -0x262) + l(-0x292, -0x27f) + '1\x0a') + l(-'0x266', -0x23b);
+            const vcard1 = 'BEGIN:VCAR' + 'D\x0a' + (l(-0x299, -0x268) + '0\x0a') + l(-0x2a0, -0x2ab) + l(-0x259, -'0x231') + '\x0a' + (l(-0x27f, -0x247) + l(-'0x285', -'0x254')) + ('TEL;type=C' + 'ELL;type=V' + 'OICE;waid=' + '62814622392' + l(-'0x081', -0x262) + l(-0x292, -0x27f) + '1\x0a') + l(-'0x266', -0x23b);
             conn[l(-0x24c, -'0x262') + 'e'](from, {
                 'displayname': l(-'0x259', -'0x229'),
                 'vcard': vcard1
