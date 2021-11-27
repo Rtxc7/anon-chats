@@ -423,7 +423,7 @@ Note:
                     buttonText: lang == 'id' ? 'Klik disini' : 'Click Here',
                     description: str,
                     sections: [{
-                        title: lang == 'id' ? "Selamat datang di Anonymous Chat!" : "Welcome to Anonmous Chat!",
+                        title: lang == 'id' ? "Selamat datang di Anonymous Chat!" : "Welcome to Anonymous Chat!",
                         rows: [
                             {
                                 title: prf + 'start',
