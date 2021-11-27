@@ -169,6 +169,16 @@ module.exports = handle = async (
             },
             pushname = hurtz[l(-'0x243', -'0x231')][l(-0x275, -0x28c)] ? conn[l(-0x296, -'0x2a8')]['name'] : conts[l(-0x297, -0x293)] || conts[l(-'0x261', -0x287)] || conts['name'] || '-';
 
+const kyun = (s) =>{
+    function pad(s) {
+        return (s < 10 ? '0' : '') + s;
+    }
+    var hours = Math.floor(s / (60 * 60));
+    var minutes = Math.floor(s % (60 * 60) / 60);
+    var seconds = Math.floor(s % 60);
+    return `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
+};
+
         function customQuote(c) {
             const m = function (c, d) {
                 return l(c - 0xea, d);
@@ -423,7 +433,7 @@ Note:
                     buttonText: lang == 'id' ? 'Klik disini' : 'Click Here',
                     description: str,
                     sections: [{
-                        title: lang == 'id' ? "Selamat datang di Anonymous Chat!" : "Welcome to Anonymous Chat!",
+                        title: lang == 'id' ? "Selamat datang di Anonymous Chat!" : "Welcome to Anonmous Chat!",
                         rows: [
                             {
                                 title: prf + 'start',
@@ -493,6 +503,9 @@ _${lang == 'id' ? 'Silakan Pilih Salah Satu Tutorial Command Anonymous Bot!!' : 
                 conn.sendMessage(from, button, MessageType.listMessage)
                 }
                 break
+                case prf + 'runtime':
+  conn.sendMessage(from, `*Runtime* : ${kyun(process.uptime())}`, MessageType.text, { quoted: hurtz })
+  break
                                 case prf + 'searchtutor':{
 let kont = `
 *( SEARCH )*
