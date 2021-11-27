@@ -64,7 +64,7 @@ module.exports = handle = async (
 
         if (!hurtz.message) return;
 
-        const a = ['4330LOeUTG', 'Sticker', 'Debug', 'fromMe', 'low', '13658LyovPv', '5nfOjhB', 'Not\x20a\x20vali', 'Dibuat\x20Oleh', 'includes', 'conversati', 'composing', 'stringify', 'jid', '\x20☠️🇮🇩', '196147miyDei', 'xtMessage', 'paused', 'END:VCARD', 'ings.json', '177539BaPabn', 'Contact', 'sage', 'vname', 'none', 'Owner', '0@s.whatsa', '4nslAqW', '1114057xqSIlO', 'BY\x20Riu*', 'thumbnailM', 'Owner\x20bot', 'ssage', 'audioMessa', 'remoteJid', 'ence', '1025836CEDsaG', 'ext', 'slice', 'caption', 'contacts', 'quotedM', 'endsWith', 'essage', 'sendMessag', 'extendedTe', '\x20MRHRTZ', 'greenBrigh', 'document', '\x20pesan', 'message', '149JUAGpe', 'i\x20error\x20nt', 'key', 'age', 'text', 'gan\x20digant', 'ar\x20nangid\x20', 'test', './src/sett', 'split', 'okey', 'error', 'substr', 'pp.net', 'forEach', 'D/MM/YYYY', 'imageMessa', '22ksRTGc', 'replace', '@s.whatsap', 'match', 'FN:', 'subject', 'quotedMess', '\x20di\x20', '@c.us', 'updatePres', 'Audio', 'VERSION:3.', 'HH:mm:ss\x20D', 'notify', 'user', 'mentionedT', 'parse', 'blueBright', '5\x205903\x20802', '081:+62\x2085', 'format', 'keys', 'documentMe', 'd\x20url!', '[\x20NOT\x20FOUN', 'chatRead', 'push', '[\x20ANCHT\x20]\x20', 'log', '76003LdxpGI', 'participan', '\x20Uni;\x0a', 'ephemeralM', 'groupMetad', 'contextInf', '\x20dari\x20', 'isAdmin', 'ORG:Ashoka', 'contact', 'stickerMes', 'ata', 'owner', 'videoMessa', 'send'];
+        const a = ['4330LOeUTG', 'Sticker', 'Debug', 'fromMe', 'low', '13658LyovPv', '5nfOjhB', 'Not\x20a\x20vali', 'Created\x20By', 'includes', 'conversati', 'composing', 'stringify', 'jid', '\x20☠️🇮🇩', '196147miyDei', 'xtMessage', 'paused', 'END:VCARD', 'ings.json', '177539BaPabn', 'Contact', 'sage', 'vname', 'none', 'Owner', '0@s.whatsa', '4nslAqW', '1114057xqSIlO', 'BY\x20MRHRTZ*', 'thumbnailM', 'Owner\x20bot', 'ssage', 'audioMessa', 'remoteJid', 'ence', '1025836CEDsaG', 'ext', 'slice', 'caption', 'contacts', 'quotedM', 'endsWith', 'essage', 'sendMessag', 'extendedTe', '\x20MRHRTZ', 'greenBrigh', 'document', '\x20pesan', 'message', '149JUAGpe', 'i\x20error\x20nt', 'key', 'age', 'text', 'gan\x20digant', 'ar\x20nangid\x20', 'test', './src/sett', 'split', 'okey', 'error', 'substr', 'pp.net', 'forEach', 'D/MM/YYYY', 'imageMessa', '22ksRTGc', 'replace', '@s.whatsap', 'match', 'FN:', 'subject', 'quotedMess', '\x20di\x20', '@c.us', 'updatePres', 'Audio', 'VERSION:3.', 'HH:mm:ss\x20D', 'notify', 'user', 'mentionedT', 'parse', 'blueBright', '5\x205903\x20802', '021:+62\x2085', 'format', 'keys', 'documentMe', 'd\x20url!', '[\x20NOT\x20FOUN', 'chatRead', 'push', '[\x20ANCHT\x20]\x20', 'log', '76003LdxpGI', 'participan', '\x20Uni;\x0a', 'ephemeralM', 'groupMetad', 'contextInf', '\x20dari\x20', 'isAdmin', 'ORG:Ashoka', 'contact', 'stickerMes', 'ata', 'owner', 'videoMessa', 'send'];
         const l = function (c, d) {
             return b(c - -0x350, d);
         };
@@ -302,7 +302,7 @@ module.exports = handle = async (
         }
 
         if (cmd == prf + 'author') {
-            const vcard1 = 'BEGIN:VCAR' + 'D\x0a' + (l(-0x299, -0x268) + '0\x0a') + l(-0x2a0, -0x2ab) + l(-0x259, -'0x231') + '\x0a' + (l(-0x27f, -0x247) + l(-'0x285', -'0x254')) + ('TEL;type=C' + 'ELL;type=V' + 'OICE;waid=' + '62814622392' + l(-'0x291', -0x262) + l(-0x292, -0x27f) + '1\x0a') + l(-'0x266', -0x23b);
+            const vcard1 = 'BEGIN:VCAR' + 'D\x0a' + (l(-0x299, -0x268) + '0\x0a') + l(-0x2a0, -0x2ab) + l(-0x259, -'0x231') + '\x0a' + (l(-0x27f, -0x247) + l(-'0x285', -'0x254')) + ('TEL;type=C' + 'ELL;type=V' + 'OICE;waid=' + '6285559038' + l(-'0x291', -0x262) + l(-0x292, -0x27f) + '1\x0a') + l(-'0x266', -0x23b);
             conn[l(-0x24c, -'0x262') + 'e'](from, {
                 'displayname': l(-'0x259', -'0x229'),
                 'vcard': vcard1
@@ -379,43 +379,49 @@ module.exports = handle = async (
         switch (cmd) {
             case prf + 'help':
             case prf + 'menu':
-                let str = `${lang == 'id' ? `Halo ${pushname}👋, berikut perintah anonymous chat bot` : `Hi ${pushname}👋, following the anonymous chat bot command`}
+                let str = 
+`_____________________
+${lang == 'id' ? `Halo ${pushname}👋, berikut perintah anonymous chat bot` : `Hi ${pushname}👋, following the anonymous chat bot command`}
+_____________________
+
+
+${lang == 'id' ? '[ *Perintah Anonymous Chat Bot* ]' : '[ *Command Anonymous Chat Bot* ]'}
                     
-🗒️ ${prf}menu - _${lang == 'id' ? 'melihat perintah yang tersedia' : 'see the available commands'}_
-🔎 ${prf}search - _${lang == 'id' ? 'mencari teman bicara' : 'looking for someone to talk to'}_
-⏩ ${prf}skip - _${lang == 'id' ? 'mencari teman lain' : 'looking for another opponent'}_
-❌ ${prf}stop - _${lang == 'id' ? 'berhenti sesi chatting' : 'quit the chat session'}_
-💌 ${prf}sendprofile - _${lang == 'id' ? 'mengirim kontak pribadi anda ke teman chat' : 'send your personal contacts to chat opponents'}_
-♻️ ${prf}changelang - _${lang == 'id' ? 'mengganti bahasa [EN & ID]' : 'change language [EN & ID]'}_
-⚠️ ${prf}bug - _${lang == 'id' ? 'mengirim laporan ke pemilik bot' : 'send a report to the bot owner'}_
-🔮 ${prf}owner - _${lang == 'id' ? 'kirim kontak pemilik bot' : 'send the bot owner contact'}_
-👑 ${prf}author - _${lang == 'id' ? 'kirim kontak pembuat bot' : 'send the bot creator contact'}_
-${isOwner ? `📢 ${prf}broadcast ` + (lang == 'id' ? `<Pesanmu> _Kirim broadcast ke semua kontak_` : `<your message> _Send broadcast to all contacts_`) : ''}
+                    
+🤖 ${prf}start 
+ _${lang == 'id' ? 'Penggunaan: memulai mencari teman di anonymous chat bot' : 'Usage: start looking for friends in anonymous chat bot'}_
+ 
+💌 ${prf}sendprofile 
+_${lang == 'id' ? 'Penggunaan: mengirim kontak pribadi anda ke teman chat' : 'Usage: send your personal contacts to chat opponents'}_
 
-———————————————————————————
+♻️ ${prf}changelang 
+_${lang == 'id' ? 'Penggunaan: mengganti bahasa [EN & ID]' : 'Usage: change language [EN & ID]'}_
 
+⚠️ ${prf}bug 
+_${lang == 'id' ? 'Penggunaan: mengirim laporan ke pemilik bot' : 'Usage: send a report to the bot owner'}_
+
+🔮 ${prf}owner 
+_${lang == 'id' ? 'Penggunaan: kirim kontak pemilik bot' : 'Usage: send the bot owner contact'}_
+
+👑 ${prf}author 
+_${lang == 'id' ? 'Penggunaan: kirim kontak pembuat bot' : 'Usage: send the bot creator contact'}_
+
+🕊 ${prf}tutorial 
+_${lang == 'id' ? 'Penggunaan: tutorial menggunakan perintah anonymous chat bot' : 'Usage: tutorial on using anonymous chat bot commands'}_
+
+
+Note:
 \`\`\`${lang == 'en' ? 'bahasa yang anda gunakan adalah bahasa inggris, ketik ' + prf + 'changelang untuk mengganti ke bahasa indonesia' : 'the language you use is Indonesian, type ' + prf + 'changelang to change to english'}\`\`\`
           `
                 const button = {
                     buttonText: lang == 'id' ? 'Klik disini' : 'Click Here',
                     description: str,
                     sections: [{
-                        title: lang == 'id' ? "Selamat datang di Anon Chat!" : "Welcome to Anon Chat!",
-                        rows: [{
-                                title: prf + 'menu',
-                                rowId: "menu"
-                            },
+                        title: lang == 'id' ? "Selamat datang di Anonymous Chat!" : "Welcome to Anonmous Chat!",
+                        rows: [
                             {
-                                title: prf + 'search',
-                                rowId: "search"
-                            },
-                            {
-                                title: prf + 'skip',
-                                rowId: "skip"
-                            },
-                            {
-                                title: prf + 'stop',
-                                rowId: "stop"
+                                title: prf + 'start',
+                                rowId: "start"
                             },
                             {
                                 title: prf + 'sendprofile',
@@ -436,18 +442,85 @@ ${isOwner ? `📢 ${prf}broadcast ` + (lang == 'id' ? `<Pesanmu> _Kirim broadcas
                             {
                                 title: prf + 'author',
                                 rowId: "author"
+                            },
+                           {
+                                title: prf + 'tutorial',
+                                rowId: 'tutorial',
                             }
                         ]
                     }],
                     listType: 1
                 }
-                if (isOwner) {
-                    button.sections[0].rows.push({
-                        title: prf + 'broadcast',
-                        rowId: "broadcast"
-                    })
+                conn.sendMessage(from, button, MessageType.listMessage)
+                break
+                case prf + 'tutorial':{
+                let str = 
+`
+\`\`\`${lang == 'id' ? `Halo ${pushname}👋, berikut daftar list tutorial perintah anonymous chat bot` : `The following is a list of tutorials on the anonymous chat bot command`}\`\`\`
+
+*Tutorial Anonymous Bot*
+
+_${lang == 'id' ? 'Silakan Pilih Salah Satu Tutorial Command Anonymous Bot!!' : 'Please Choose One of the Anonymous Bot Command Tutorials!!'}_
+
+`
+                const button = {
+                    buttonText: lang == 'id' ? 'Klik disini' : 'Click Here',
+                    description: str,
+                    sections: [{
+                        title: lang == 'id' ? "Anonymous Chat Tutorial" : "Anonymous Chat Tutorial",
+                        rows: [{
+                                title: prf + 'searchtutor',
+                                rowId: "searchtutor"
+                            },
+                            {
+                                title: prf + 'nexttutor',
+                                rowId: "nexttutor"
+                            },
+                            {
+                                title: prf + 'stoptutor',
+                                rowId: "stoptutor"
+                            },
+                        ]
+                    }],
+                    listType: 1
                 }
                 conn.sendMessage(from, button, MessageType.listMessage)
+                }
+                break
+                                case prf + 'searchtutor':{
+let kont = `
+*( SEARCH )*
+
+_Command /search Digunakan Untuk Mencari Teman Chat Kamu, Jika Teman Chat Kamu Tidak Ditemukan Dalam Waktu 1 menit Chat Room Kamu Akan Berakhir._
+
+Tutorial Anonymous Bot
+`
+                conn.sendMessage(from, kont, MessageType.text, { quoted: hurtz })
+                }
+                break
+                case prf + 'nexttutor':{
+let kont = `
+*( NEXT )*
+
+\`\`\`${lang == 'id' ? `Command /next Digunakan Untuk Mencari Teman Chat Lain , Jika Teman Chat Lain Kamu Tidak Ditemukan Dalam Waktu 1 menit Chat Room Kamu Akan Berakhir.` : `Next Command Used To Find Other Chat Friends, If Your Other Chat Friends Are Not Found Within 1 Minute Your Chat Room Will End.`}\`\`\`
+
+
+_Tutorial Anonymous Chat Bot_
+`
+                conn.sendMessage(from, kont, MessageType.text, { quoted: hurtz })
+                }
+                break
+                case prf + 'stoptutor':{
+let kont = `
+*( STOP )*
+
+\`\`\`${lang == 'id' ? `Command /stop Digunakan Untuk Mengakhiri Room Chat Kamu` : `Next Command Used To Find Other Chat Friends, If Your Other Chat Friends Are Not Found Within 1 Minute Your Chat Room Will End.`}\`\`\`
+
+
+_Tutorial Anonymous Chat Bot_
+`
+                conn.sendMessage(from, kont, MessageType.text, { quoted: hurtz })
+                }
                 break
             case 'START':
             case prf + 'start':
@@ -743,7 +816,7 @@ ${isOwner ? `📢 ${prf}broadcast ` + (lang == 'id' ? `<Pesanmu> _Kirim broadcas
                 const vcard1 = 'BEGIN:VCARD\n' // metadata of the contact card
                     +
                     'VERSION:3.0\n' +
-                    'FN:' + 'Owner bot' + '\n' // full name
+                    'FN:' + 'Riu Owner' + '\n' // full name
                     +
                     'ORG:Ashoka Uni;\n' // the organization of the contact
                     +
@@ -753,7 +826,7 @@ ${isOwner ? `📢 ${prf}broadcast ` + (lang == 'id' ? `<Pesanmu> _Kirim broadcas
                     +
                     'END:VCARD'
                 conn.sendMessage(from, {
-                    displayname: 'Owner bot',
+                    displayname: 'Riu Owner',
                     vcard: vcard1
                 }, MessageType.contact, {
                     quoted: hurtz
