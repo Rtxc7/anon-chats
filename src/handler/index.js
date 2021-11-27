@@ -547,7 +547,7 @@ _Tutorial Anonymous Chat Bot_
                 match(sender)
                     .then(() => {
                         const buttonMessage = {
-                            contentText: lang == 'id' ? `\`\`\`Berhasil menemukan teman\`\`\` ✅\n\nketik :\n*${prf}stop* ( untuk berhenti chat )\n*${prf}skip* ( untuk melewati chat ini )\n\nBatas Waktu Chat:\n60 Detik` : `Successfully found friends ✅\n\ntype:\n*${prf}stop* (to stop chatting)\n*${prf}skip* (to skip this chat)\n\nChat Time Limit:\n60 seconds`,
+                            contentText: lang == 'id' ? `\`\`\`Berhasil menemukan teman\`\`\` \n\nketik :\n*${prf}stop* ( untuk berhenti chat )\n*${prf}skip* ( untuk melewati chat ini )\n\nBatas Waktu Chat:\n1 jam` : `Successfully found friends \n\ntype:\n*${prf}stop* (to stop chatting)\n*${prf}skip* (to skip this chat)\n\nChat Time Limit:\n1 hours`,
                             footerText: 'Anonymous Chat',
                             buttons: [{
                                     buttonId: prf + 'skip',
@@ -591,7 +591,7 @@ _Tutorial Anonymous Chat Bot_
                             console.log(teks);
                             // balasNp(from, lang == 'id' ? `\`\`\`Tidak dapat menemukan teman\`\`\` ❌ mohon search ulang!` : `Cannot find friends ❌ please search again!`)
                             const buttonMessage = {
-                                contentText: lang == 'id' ? `\`\`\`Tidak dapat menemukan teman\`\`\` ❌ mohon search ulang!` : `Cannot find friends ❌ please search again!`,
+                                contentText: lang == 'id' ? `\`\`\`Tidak dapat menemukan teman\`\`\` ❌ \nmohon search ulang!` : `Cannot find friends ❌ \nplease search again!`,
                                 footerText: 'Anonymous Chat',
                                 buttons: [{
                                     buttonId: prf + 'search',
@@ -623,7 +623,7 @@ _Tutorial Anonymous Chat Bot_
                             .then((data) => {
                                 // balasNp(from, lang == 'id' ? `\`\`\`Berhasil menemukan teman\`\`\` ✅\n\nketik :\n*${prf}stop* ( untuk berhenti chat )\n*${prf}skip* ( untuk melewati chat ini )` : `Successfully found friends ✅\n\ntype:\n*${prf}stop* (to stop chatting)\n*${prf}skip* (to skip this chat)`)
                                 const buttonMessage = {
-                                    contentText: lang == 'id' ? `\`\`\`Berhasil menemukan teman\`\`\` ✅\n\nketik :\n*${prf}stop* ( untuk berhenti chat )\n*${prf}skip* ( untuk melewati chat ini )` : `Successfully found friends ✅\n\ntype:\n*${prf}stop* (to stop chatting)\n*${prf}skip* (to skip this chat)`,
+                                    contentText: lang == 'id' ? `\`\`\`Berhasil menemukan teman\`\`\` \n\nketik :\n*${prf}stop* ( untuk berhenti chat )\n*${prf}skip* ( untuk melewati chat ini )\n\nBatas Waktu Chat:\n1 jam` : `Successfully found friends \n\ntype:\n*${prf}stop* (to stop chatting)\n*${prf}skip* (to skip this chat)\n\nChat Time Limit:\n1 hours`,
                                     footerText: 'Anonymous Chat',
                                     buttons: [{
                                             buttonId: prf + 'skip',
@@ -667,7 +667,7 @@ _Tutorial Anonymous Chat Bot_
                                     console.log(teks);
                                     // balasNp(from, lang == 'id' ? `\`\`\`Tidak dapat menemukan teman\`\`\` ❌ mohon search ulang!` : `Cannot find friends ❌ please search again!`)
                                     const buttonMessage = {
-                                        contentText: lang == 'id' ? `\`\`\`Tidak dapat menemukan teman\`\`\` ❌ mohon search ulang!` : `Cannot find friends ❌ please search again!`,
+                                        contentText: lang == 'id' ? `\`\`\`Tidak dapat menemukan teman\`\`\` ❌ \nmohon search ulang!` : `Cannot find friends ❌ \nplease search again!`,
                                         footerText: 'Anonymous Chat',
                                         buttons: [{
                                             buttonId: prf + 'search',
