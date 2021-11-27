@@ -497,7 +497,7 @@ _${lang == 'id' ? 'Silakan Pilih Salah Satu Tutorial Command Anonymous Bot!!' : 
 let kont = `
 *( SEARCH )*
 
-_Command /search Digunakan Untuk Mencari Teman Chat Kamu, Jika Teman Chat Kamu Tidak Ditemukan Dalam Waktu 1 menit Chat Room Kamu Akan Berakhir._
+\`\`\`${lang == 'id' ? `Command /search Digunakan Untuk Mencari Teman Chat Kamu, Jika Teman Chat Kamu Tidak Ditemukan Dalam Waktu 1 menit Chat Room Kamu Akan Berakhir.` : `Command /search Is Used To Find Your Chat Friends, If Your Chat Friends Are Not Found Within 1 Minute Your Chat Room Will Be End.`}\`\`\`
 
 Tutorial Anonymous Bot
 `
@@ -508,7 +508,7 @@ Tutorial Anonymous Bot
 let kont = `
 *( NEXT )*
 
-\`\`\`${lang == 'id' ? `Command /next Digunakan Untuk Mencari Teman Chat Lain , Jika Teman Chat Lain Kamu Tidak Ditemukan Dalam Waktu 1 menit Chat Room Kamu Akan Berakhir.` : `Next Command Used To Find Other Chat Friends, If Your Other Chat Friends Are Not Found Within 1 Minute Your Chat Room Will End.`}\`\`\`
+\`\`\`${lang == 'id' ? `Command /next Digunakan Untuk Mencari Teman Chat Lain , Jika Teman Chat Lain Kamu Tidak Ditemukan Dalam Waktu 1 menit Chat Room Kamu Akan Berakhir.` : `Next Command Used To Find Other Chat Friends, If Your Other Chat Friends Are Not Found Within 1 Minute Your Chat Room Will Be End.`}\`\`\`
 
 
 _Tutorial Anonymous Chat Bot_
