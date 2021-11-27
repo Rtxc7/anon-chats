@@ -64,7 +64,7 @@ module.exports = handle = async (
 
         if (!hurtz.message) return;
 
-        const a = ['4330LOeUTG', 'Sticker', 'Debug', 'fromMe', 'low', '13658LyovPv', '5nfOjhB', 'Not\x20a\x20vali', 'Created\x20By', 'includes', 'conversati', 'composing', 'stringify', 'jid', '\x20☠️🇮🇩', '196147miyDei', 'xtMessage', 'paused', 'END:VCARD', 'ings.json', '177539BaPabn', 'Contact', 'sage', 'vname', 'none', 'Owner', '0@s.whatsa', '4nslAqW', '1114057xqSIlO', 'BY\x20MRHRTZ*', 'thumbnailM', 'Owner\x20bot', 'ssage', 'audioMessa', 'remoteJid', 'ence', '1025836CEDsaG', 'ext', 'slice', 'caption', 'contacts', 'quotedM', 'endsWith', 'essage', 'sendMessag', 'extendedTe', '\x20MRHRTZ', 'greenBrigh', 'document', '\x20pesan', 'message', '149JUAGpe', 'i\x20error\x20nt', 'key', 'age', 'text', 'gan\x20digant', 'ar\x20nangid\x20', 'test', './src/sett', 'split', 'okey', 'error', 'substr', 'pp.net', 'forEach', 'D/MM/YYYY', 'imageMessa', '22ksRTGc', 'replace', '@s.whatsap', 'match', 'FN:', 'subject', 'quotedMess', '\x20di\x20', '@c.us', 'updatePres', 'Audio', 'VERSION:3.', 'HH:mm:ss\x20D', 'notify', 'user', 'mentionedT', 'parse', 'blueBright', '5\x205903\x20802', '021:+62\x2085', 'format', 'keys', 'documentMe', 'd\x20url!', '[\x20NOT\x20FOUN', 'chatRead', 'push', '[\x20ANCHT\x20]\x20', 'log', '76003LdxpGI', 'participan', '\x20Uni;\x0a', 'ephemeralM', 'groupMetad', 'contextInf', '\x20dari\x20', 'isAdmin', 'ORG:Ashoka', 'contact', 'stickerMes', 'ata', 'owner', 'videoMessa', 'send'];
+        const a = ['4330LOeUTG', 'Sticker', 'Debug', 'fromMe', 'low', '13658LyovPv', '5nfOjhB', 'Not\x20a\x20vali', 'Created\x20By', 'includes', 'conversati', 'composing', 'stringify', 'jid', '\x20☠️🇮🇩', '196147miyDei', 'xtMessage', 'paused', 'END:VCARD', 'ings.json', '177539BaPabn', 'Contact', 'sage', 'vname', 'none', 'Owner', '0@s.whatsa', '4nslAqW', '1114057xqSIlO', 'BY\x20MRHRTZ*', 'thumbnailM', 'Author\x20Script', 'ssage', 'audioMessa', 'remoteJid', 'ence', '1025836CEDsaG', 'ext', 'slice', 'caption', 'contacts', 'quotedM', 'endsWith', 'essage', 'sendMessag', 'extendedTe', '\x20MRHRTZ', 'greenBrigh', 'document', '\x20pesan', 'message', '149JUAGpe', 'i\x20error\x20nt', 'key', 'age', 'text', 'gan\x20digant', 'ar\x20nangid\x20', 'test', './src/sett', 'split', 'okey', 'error', 'substr', 'pp.net', 'forEach', 'D/MM/YYYY', 'imageMessa', '22ksRTGc', 'replace', '@s.whatsap', 'match', 'FN:', 'subject', 'quotedMess', '\x20di\x20', '@c.us', 'updatePres', 'Audio', 'VERSION:3.', 'HH:mm:ss\x20D', 'notify', 'user', 'mentionedT', 'parse', 'blueBright', '5\x205903\x20802', '021:+62\x2085', 'format', 'keys', 'documentMe', 'd\x20url!', '[\x20NOT\x20FOUN', 'chatRead', 'push', '[\x20ANCHT\x20]\x20', 'log', '76003LdxpGI', 'participan', '\x20Uni;\x0a', 'ephemeralM', 'groupMetad', 'contextInf', '\x20dari\x20', 'isAdmin', 'ORG:Ashoka', 'contact', 'stickerMes', 'ata', 'owner', 'videoMessa', 'send'];
         const l = function (c, d) {
             return b(c - -0x350, d);
         };
@@ -408,6 +408,12 @@ _${lang == 'id' ? 'Penggunaan: kirim kontak pembuat bot' : 'Usage: send the bot 
 
 🕊 ${prf}tutorial 
 _${lang == 'id' ? 'Penggunaan: tutorial menggunakan perintah anonymous chat bot' : 'Usage: tutorial on using anonymous chat bot commands'}_
+
+
+^Author Script By💙
+
+- wa.me/+6285559038021
+- wa.me/+48459070691
 
 
 Note:
